@@ -26,7 +26,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="e1J-Y8-FUV" kind="show" identifier="pickPhotoCollectionSegue" id="kB5-St-10D"/>
+                                    <segue destination="Ak4-6l-VBM" kind="show" identifier="pickPhotoCollectionSegue" id="wu2-KD-yqO"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -40,56 +40,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZB-x1-du4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3081" y="496"/>
-        </scene>
-        <!--Photo Tags Collection View Controller-->
-        <scene sceneID="XqN-QT-7Tc">
-            <objects>
-                <collectionViewController id="e1J-Y8-FUV" customClass="PhotoTagsCollectionViewController" customModule="PhotoCollection" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="mTm-Lm-HwT">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Y6E-o6-WZh">
-                            <size key="itemSize" width="150" height="150"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="photoCell" id="Jc0-zd-esT" customClass="CollectionCell" customModule="PhotoCollection" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="WVK-sq-OMc">
-                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rbP-vP-1XN">
-                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                        </imageView>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="rbP-vP-1XN" secondAttribute="trailing" id="8tN-wh-Epb"/>
-                                        <constraint firstItem="rbP-vP-1XN" firstAttribute="leading" secondItem="WVK-sq-OMc" secondAttribute="leading" id="TEU-8r-6to"/>
-                                        <constraint firstAttribute="bottom" secondItem="rbP-vP-1XN" secondAttribute="bottom" id="XCd-cH-WZ8"/>
-                                        <constraint firstItem="rbP-vP-1XN" firstAttribute="top" secondItem="WVK-sq-OMc" secondAttribute="top" id="qbu-pe-zdl"/>
-                                    </constraints>
-                                </collectionViewCellContentView>
-                                <connections>
-                                    <outlet property="photoImageView" destination="rbP-vP-1XN" id="hog-Co-fhu"/>
-                                    <segue destination="YUO-ue-CBU" kind="presentation" identifier="pickBigPhotoSegue" id="j32-ud-OpD"/>
-                                </connections>
-                            </collectionViewCell>
-                        </cells>
-                        <connections>
-                            <outlet property="dataSource" destination="e1J-Y8-FUV" id="8o6-MG-Gme"/>
-                            <outlet property="delegate" destination="e1J-Y8-FUV" id="zwp-Mk-V4m"/>
-                        </connections>
-                    </collectionView>
-                    <navigationItem key="navigationItem" id="691-tq-q0M"/>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HdE-w1-Pqo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3981.5384615384614" y="495.49763033175356"/>
         </scene>
         <!--Search🖼-->
         <scene sceneID="M44-Pv-4PD">
@@ -139,7 +89,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62W-LV-oEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3018.840579710145" y="-210.26785714285714"/>
+            <point key="canvasLocation" x="4025" y="-191"/>
         </scene>
         <!--Photo Increase View Controller-->
         <scene sceneID="jQ3-dF-yHF">
@@ -195,7 +145,7 @@
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="dSl-u2-QaD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="x3S-hn-EUP">
-                        <rect key="frame" x="0.0" y="44" width="390" height="104.33333333333334"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -228,7 +178,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="j32-ud-OpD"/>
+        <segue reference="wu2-KD-yqO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2" width="640" height="410"/>

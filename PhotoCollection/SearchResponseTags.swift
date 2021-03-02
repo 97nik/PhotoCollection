@@ -23,7 +23,6 @@ struct Hottags: Codable {
 // MARK: - Tag
 struct Tag: Codable {
     let content: String
-
     enum CodingKeys: String, CodingKey {
         case content = "_content"
     }

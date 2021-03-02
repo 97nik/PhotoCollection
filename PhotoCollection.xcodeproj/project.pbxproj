@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117B532125EB616D00CA185F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 117B531F25EB616D00CA185F /* Model.xcdatamodeld */; };
 		11CFD00925E9141C00ABB801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFD00825E9141C00ABB801 /* AppDelegate.swift */; };
 		11CFD00B25E9141C00ABB801 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFD00A25E9141C00ABB801 /* SceneDelegate.swift */; };
-		11CFD00D25E9141C00ABB801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFD00C25E9141C00ABB801 /* ViewController.swift */; };
 		11CFD01025E9141C00ABB801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFD00E25E9141C00ABB801 /* Main.storyboard */; };
 		11CFD01225E9142000ABB801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CFD01125E9142000ABB801 /* Assets.xcassets */; };
 		11CFD01525E9142000ABB801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFD01325E9142000ABB801 /* LaunchScreen.storyboard */; };
@@ -27,10 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117B532025EB616D00CA185F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		11CFD00525E9141C00ABB801 /* PhotoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CFD00825E9141C00ABB801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11CFD00A25E9141C00ABB801 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11CFD00C25E9141C00ABB801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11CFD00F25E9141C00ABB801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11CFD01125E9142000ABB801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11CFD01425E9142000ABB801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +62,7 @@
 		11CFCFFC25E9141C00ABB801 = {
 			isa = PBXGroup;
 			children = (
+				117B531F25EB616D00CA185F /* Model.xcdatamodeld */,
 				11CFD00725E9141C00ABB801 /* PhotoCollection */,
 				11CFD00625E9141C00ABB801 /* Products */,
 			);
@@ -80,7 +81,6 @@
 			children = (
 				11CFD00825E9141C00ABB801 /* AppDelegate.swift */,
 				11CFD00A25E9141C00ABB801 /* SceneDelegate.swift */,
-				11CFD00C25E9141C00ABB801 /* ViewController.swift */,
 				11CFD00E25E9141C00ABB801 /* Main.storyboard */,
 				11CFD03825EA6A8000ABB801 /* CollectionCell.swift */,
 				11CFD03225EA669B00ABB801 /* PhotoTagsCollectionViewController.swift */,
@@ -180,13 +180,13 @@
 			files = (
 				11CFD02725EA13DB00ABB801 /* SearchResponse.swift in Sources */,
 				11CFD03C25EA6D4A00ABB801 /* TagPhotoTableViewCell.swift in Sources */,
+				117B532125EB616D00CA185F /* Model.xcdatamodeld in Sources */,
 				11CFD03625EA677200ABB801 /* PhotoCollectionTags.swift in Sources */,
 				11CFD03925EA6A8000ABB801 /* CollectionCell.swift in Sources */,
 				11CFD02A25EA23F300ABB801 /* SearchCell.swift in Sources */,
 				11CFD03325EA669B00ABB801 /* PhotoTagsCollectionViewController.swift in Sources */,
 				11CFD02D25EA4E3000ABB801 /* PhotoIncreaseViewController.swift in Sources */,
 				11CFD02125EA108600ABB801 /* SerachCollectionViewController.swift in Sources */,
-				11CFD00D25E9141C00ABB801 /* ViewController.swift in Sources */,
 				11CFD00925E9141C00ABB801 /* AppDelegate.swift in Sources */,
 				11CFD01E25EA0DC900ABB801 /* NetworkService.swift in Sources */,
 				11CFD02425EA120800ABB801 /* TagsTableViewController.swift in Sources */,
@@ -393,6 +393,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		117B531F25EB616D00CA185F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				117B532025EB616D00CA185F /* Model.xcdatamodel */,
+			);
+			currentVersion = 117B532025EB616D00CA185F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 11CFCFFD25E9141C00ABB801 /* Project object */;
 }

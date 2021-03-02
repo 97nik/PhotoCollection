@@ -11,6 +11,4 @@ class SearchCell: UICollectionViewCell {
     
     @IBOutlet weak var photoImageView: UIImageView!
     
-  //  var bigPhoto : String = ""
-    
 }
